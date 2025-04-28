@@ -8,8 +8,7 @@ se vitorias for entre 81 e 90 = diamante
 se vitorias for entre 91 e 100 = lendario
 se vitorias for acima ou igual a 101 = imortal'''
 
-jogadorV = 70
-jogadorD = 20
+jogador = 70
 
 def ranking(pontos):
     if pontos >= 51 and pontos <= 80:
@@ -19,4 +18,4 @@ def ranking(pontos):
     if pontos >=91 and pontos <= 100:
         print("O jogador é ranking lendario")       
 
-ranking(jogadorV)  
+ranking(jogador)  
